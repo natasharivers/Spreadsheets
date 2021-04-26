@@ -1,0 +1,23 @@
+SPREADSHEETS = EXCEL
+
+REASONS TO USE EXCEL:
+- you CANNOT escape spreadsheets in the corporate world
+- may specifically ask for spreadsheet if they want to later manipulate the data
+- working with others (colaberating), multiple people working on the same sheet at the same time
+ 
+
+LIMITATIONS (CONS) OF EXCEL:
+- limits to data you can enter
+    * Max Excel holds: 16384 columns & 1.04M rows
+- uses a lot of RAM
+- limited charts
+- have to re-run cells if you add data
+- in coding: its very structured, in excel: the order doesnt really matter (not as structured)
+- no error messages
+- easy to permanently ruin your spreadsheet
+
+
+BENEFITS (PROS) OF EXCEL:
+- easy to learn
+- easy to share with others
+- faster for small datasets
