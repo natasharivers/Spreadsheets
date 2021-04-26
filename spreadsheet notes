@@ -100,7 +100,27 @@ SPREADSHEET WALKTROUGH:
     - pivot table
     - "new sheet" - always suggested
         -(ex): ROWS- add genre
+                    -add year
+
              VALUES- add budget (average)
                     -add BO revenue (average)
                     -add genre (counta)
 
+15. Visualize Data
+    - Color Scaling:
+        - select column desired
+        - Format tab
+        - conditional formating
+        - color scale
+
+    - Charts:
+        - highlight desired data
+        - insert tab
+        - "chart"
+        - specify on right what x and y axis will be
+        - select "chart type"
+
+16. VLookup
+    - must be leftmost column
+    - =VLOOKUP(reference search cell, $column$row:$column$row, index, False)
+    
