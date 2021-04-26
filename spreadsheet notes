@@ -20,4 +20,87 @@ LIMITATIONS (CONS) OF EXCEL:
 BENEFITS (PROS) OF EXCEL:
 - easy to learn
 - easy to share with others
-- faster for small datasets
+- faster for "small" datasets
+
+Keyboard commands:
+command + A - select all data
+command + A + A - selects entire spreadsheet
+command + shift + down arrow - highlight all rows below where curser is 
+command + shift + up arrow - highlight all rows below where curser is 
+
+
+Share:
+- Permissions:
+    *viewers- can only see and make copy
+    *commenter- can add notes but not edit 
+    *editor- can manipulate data
+- can "get link" and share your doc with anyone you want
+
+SPREADSHEET WALKTROUGH:
+"Movie Data"
+1. Format: look at column titles - format appropriately (currency,date,etc)
+2. Dates: should be YYYY-MM-DD
+3. Currency: if dealing with large numbers (in millions), use rounded Currency
+
+4. Duplicates: 
+    -select all, 
+    -go to "data", 
+    -click "remove duplicates"
+
+5. Copy: 
+    -right click on lower tab, 
+    -"duplicate" - to have original data in another tab
+
+6. Remove White Space: 
+    -data tab
+    - trim whitespace
+
+7. Sort Data: 
+    - data tab, 
+    - sort range, 
+    - advance sorting, 
+    - "data has header"
+
+8. Filtering: 
+    - data tab, 
+    - create filer, 
+    - creates an inverted triangle on header
+    - click triangle and choose option
+    - if want gone: data, remove Filter
+
+9. Filter Views: 
+    - go to data tab
+    - click filter views, create
+    - filter as needed
+    - save as new name 
+
+10. Create new column
+    - right click and insert
+
+11. Data Validation
+    - for consistent data 
+        - data tab
+        - data validation 
+        - criteria: list of items (yes, no)
+        - save
+
+12. Count if, sum if, average if
+    - will only count if condition is true
+    - countif(range, criteria)
+    _ sumif(range,criteria, sum_range)
+    - averageif(range, criteria, average_range)
+
+13. Lock in function
+    - $ before and after range
+        - sumif($G2:$G500)
+            -this will remain ($G2:$G500) even if you drag formula down
+
+14. Pivot Table
+    - data tab
+    - pivot table
+    - "new sheet" - always suggested
+        -(ex): ROWS- add genre
+             VALUES- add budget (average)
+                    -add BO revenue (average)
+                    -add genre (counta)
+
