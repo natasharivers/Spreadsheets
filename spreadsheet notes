@@ -86,7 +86,7 @@ SPREADSHEET WALKTROUGH:
 
 12. Count if, sum if, average if
     - will only count if condition is true
-    - countif(range, criteria)
+    - countif(range, criteria)=
     _ sumif(range,criteria, sum_range)
     - averageif(range, criteria, average_range)
 
@@ -123,4 +123,21 @@ SPREADSHEET WALKTROUGH:
 16. VLookup
     - must be leftmost column
     - =VLOOKUP(reference search cell, $column$row:$column$row, index, False)
-    
+
+17. Split Text
+    - data tab
+    - split text to column
+    - "seperator" - Space
+
+18. Concatenate
+    - = concat(value1,value2)
+
+19. Left, right, mid
+    - =left(string, # of chars)
+    - =right(string, # of chars)
+    - =mid(sring, start characher index, end character index)
+
+20. Sparkline
+
+
+
